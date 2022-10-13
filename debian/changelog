@@ -1,0 +1,37 @@
+node-create-ecdh (4.0.4-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * New upstream version 4.0.4
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 19 Dec 2020 13:17:31 +0100
+
+node-create-ecdh (4.0.3-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Update VCS fields to salsa
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * New upstream version 4.0.3
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 22 Feb 2020 09:05:27 +0100
+
+node-create-ecdh (4.0.0-2) unstable; urgency=medium
+
+  * Install browser.js
+  * Enable tests
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 04 Sep 2017 09:16:09 +0530
+
+node-create-ecdh (4.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #861791)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 04 May 2017 11:15:15 +0530

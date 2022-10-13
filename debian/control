@@ -1,0 +1,29 @@
+Source: node-create-ecdh
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , node-bn.js <!nocheck>
+ , node-elliptic <!nocheck>
+ , node-tape <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-create-ecdh
+Vcs-Git: https://salsa.debian.org/js-team/node-create-ecdh.git
+Homepage: https://github.com/crypto-browserify/createECDH
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-create-ecdh
+Architecture: all
+Depends: ${misc:Depends}
+ , node-bn.js
+ , node-elliptic
+ , nodejs
+Description: browserifiable createECDH
+ In io.js or node >= 0.11 this module is just a shortcut to crypto.createECDH.
+ In node <= 0.11 or the browser this is a pure JavaScript implementation, more
+ specifically a wrapper around elliptic to give it the same API as node.
+ .
+ Node.js is an event-based server-side JavaScript engine.
